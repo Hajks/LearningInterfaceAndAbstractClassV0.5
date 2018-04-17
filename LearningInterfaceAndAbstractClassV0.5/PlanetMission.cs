@@ -8,6 +8,7 @@ namespace LearningInterfaceAndAbstractClassV0._5
 {
     abstract class PlanetMission //If we decalre class as abstract one, we will not be able to create his object.
     {
+        public abstract void SetMissionInfo(int milesToPlanet, int rocketFuelPerMile, long rocketSpeedMPH);
         public long RocketFuelPerMile;
         public long RocketSpeedMPH;
         public int MilesToPlanet;
